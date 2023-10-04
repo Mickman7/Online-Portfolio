@@ -189,7 +189,7 @@ li a:hover{
     
 }
 
-.about-section input[type= "submit"]{
+.about-section button[type= "submit"]{
     background-color: #5BA497;
     color: black;
     font-size: 20px;
@@ -202,7 +202,7 @@ li a:hover{
     padding: 1px;
 }
 
-.about-section input[type= "submit"]:hover{
+.about-section button[type= "submit"]:hover{
     cursor: pointer;
     background-color: #5ba4978c;
     color: #5BA497;
