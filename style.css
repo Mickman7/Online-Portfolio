@@ -980,7 +980,11 @@ footer p{
         flex-direction: column;
     }
 
-    .form-cell{
+    .cell-grid1{
+        display: inline-block;
+    }
+        
+    #float-right{
         float: none;
     }
 
