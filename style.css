@@ -938,7 +938,8 @@ footer p{
     }
 
     .slide-img{
-        
+        width: 300px;
+        height: 200px;
     }
 
     .contact-section{
