@@ -442,7 +442,7 @@ textarea{
 justify-content: left;
 background-color: #5ba4978c;
 color: rgb(210, 206, 206);
-/* padding: 12px 20px; */
+padding: 12px 20px; 
 border: 3px solid #5BA497;
 border-radius: 30px;
 cursor: pointer;
@@ -577,7 +577,6 @@ footer p{
 
     .form-btn{
         width: 200px;
-        padding: inherit;
     }
 
     footer{
