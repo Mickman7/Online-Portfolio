@@ -765,6 +765,10 @@ footer p{
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 625px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .section-title{
         font-size: 13px;
     }
