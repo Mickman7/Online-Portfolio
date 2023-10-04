@@ -13,6 +13,7 @@ body{
     background-color: black;
     color: white;
     overflow-x: hidden;
+    position: relative;
 }
 
 .section-seperators{
