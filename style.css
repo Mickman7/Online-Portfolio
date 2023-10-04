@@ -982,7 +982,7 @@ footer p{
 
 
     .form-cell{
-        float: none;
+        float: none !important;
     }
 
     .cell-grid1{
@@ -990,7 +990,7 @@ footer p{
     }
         
     #float-right{
-        float: none;
+        float: left;
     }
     
     
