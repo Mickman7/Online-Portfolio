@@ -577,6 +577,7 @@ footer p{
 
     .form-btn{
         width: 200px;
+        padding: inherit;
     }
 
     footer{
