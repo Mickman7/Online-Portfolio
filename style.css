@@ -933,6 +933,14 @@ footer p{
         font-size: 10px ;
     } */
 
+    .slideshow-container{
+
+    }
+
+    .slide-img{
+        
+    }
+
     .contact-section{
         padding: 20px;
         flex-direction: column;
