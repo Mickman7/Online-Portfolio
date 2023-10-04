@@ -1004,11 +1004,12 @@ footer p{
         padding: 12px;
         margin-top: 3px;
         margin-bottom: 16px;
-        width: 175px;
+        width: 200px;
+        height: 60px;
     }
     
     textarea{
-        width: 370px;
+        width: 250px;
     }
     
       
