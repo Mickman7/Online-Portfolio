@@ -438,7 +438,7 @@ textarea{
 }
 
   
-input[type=submit] {
+.form-btn {
 justify-content: left;
 background-color: #5ba4978c;
 color: rgb(210, 206, 206);
@@ -449,7 +449,7 @@ cursor: pointer;
 float: left;
 }
   
-input[type=submit]:hover {
+.form-btn:hover {
 background-color: #5BA497;
 }
 
