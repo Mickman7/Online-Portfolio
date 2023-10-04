@@ -496,7 +496,7 @@ footer p{
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media screen and (min-width: 1200px){
     .hero{
-        padding: 10px;
+        padding: 10px 20px;
     }
     .hero-text h4{
         color: #5BA497;
