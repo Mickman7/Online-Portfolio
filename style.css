@@ -575,6 +575,10 @@ footer p{
         height: 300px;
     }
 
+    .form-btn{
+        width: 200px;
+    }
+
     footer{
         margin-top: 100px;
     }
@@ -1019,6 +1023,7 @@ footer p{
         font-size: 11px;
         width: 150px;
         height: 40px;
+        padding: 0px;
     }
     
     footer{
