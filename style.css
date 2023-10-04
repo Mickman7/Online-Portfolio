@@ -497,6 +497,7 @@ footer p{
 @media screen and (min-width: 1200px){
     .hero{
         padding: 10px 20px;
+        margin-top: 90px;
     }
     .hero-text h4{
         color: #5BA497;
