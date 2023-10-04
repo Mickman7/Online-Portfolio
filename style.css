@@ -980,6 +980,10 @@ footer p{
         flex-direction: column;
     }
 
+    .form-cell{
+        float: none;
+    }
+
     
 
     label{
