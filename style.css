@@ -282,6 +282,7 @@ li a:hover{
 .slide-img{
     width: 400px;
     height: 200px;
+    border-radius: 15px;
 }
 
 
