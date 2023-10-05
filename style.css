@@ -365,6 +365,10 @@ li a:hover{
     margin: 0px 20px;
 }
 
+.portfolio-section p{
+    width: 100px;
+}
+
 .code-view{
     background-color: #5BA497;
     color: black;
