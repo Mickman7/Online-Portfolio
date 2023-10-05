@@ -246,7 +246,7 @@ li a:hover{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 300px;
+    width: 200px;
 }
 
 
@@ -275,7 +275,7 @@ li a:hover{
 }
 
 .slide-img{
-    width: 200px;
+    width: 250px;
     height: 150px;
     border-radius: 15px;
 }
@@ -369,7 +369,7 @@ li a:hover{
 }
 
 .portfolio-section p{
-    width: 300px;
+    width: 200px;
     margin: 5px 0px 5px 0px;
     display: flex;
     flex-direction: column;
