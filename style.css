@@ -237,6 +237,10 @@ li a:hover{
     justify-content: center;
 }
 
+.cell-text{
+    display: flex;
+}
+
 
 .cell-text h2{
     display: flex;
@@ -248,7 +252,6 @@ li a:hover{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    flex-wrap: wrap;
 }
 
 
