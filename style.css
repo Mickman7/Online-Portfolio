@@ -241,20 +241,12 @@ li a:hover{
     justify-content: center;
 }
 
-.cell-text{
-}
 
 .cell-text h2{
     display: flex;
     flex-direction: column;
     padding: 10px;
     width: 300px;
-}
-
-.cell-text p{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
 }
 
 
