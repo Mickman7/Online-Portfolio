@@ -379,6 +379,9 @@ li a:hover{
 .portfolio-section p{
     width: 300px;
     margin: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .code-view{
@@ -407,7 +410,7 @@ li a:hover{
     padding: 1px;
 }
 .portfolio-section button{
-    margin: 0px  15px;
+    margin: 0px  10px;
 }
 .portfolio-section button:hover{
     cursor: pointer;
