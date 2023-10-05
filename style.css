@@ -241,7 +241,9 @@ li a:hover{
     justify-content: center;
 }
 
-
+.cell-text{
+    align-items: center;
+}
 
 .cell-text h2{
     display: flex;
