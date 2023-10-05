@@ -390,6 +390,12 @@ li a:hover{
     padding: 1px;
 }
 
+.portfolio-section button:hover{
+    cursor: pointer;
+    background-color: #5ba4978c;
+    color: #5BA497;
+}
+
 
 /*Contact section*/
 
