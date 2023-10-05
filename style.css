@@ -218,7 +218,7 @@ li a:hover{
 } 
 
 .project-container{
-    
+    display: flex;
 }
 
 
