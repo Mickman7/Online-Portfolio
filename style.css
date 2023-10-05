@@ -364,6 +364,19 @@ li a:hover{
     margin: 0px 20px;
 }
 
+.code-view{
+    background-color: #5BA497;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    border: 2px solid #5BA497;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    padding: 10px 10px;
+    padding: 1px;
+}
+
 
 
 /*Contact section*/
