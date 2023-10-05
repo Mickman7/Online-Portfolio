@@ -224,6 +224,7 @@ li a:hover{
     display: flex;
     flex-direction: column;
     margin: 50px;
+    justify-content: center;
 }
 
 
