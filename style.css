@@ -228,6 +228,9 @@ li a:hover{
     flex-direction: column;
     margin: 50px;
     align-items: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 
