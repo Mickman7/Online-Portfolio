@@ -395,7 +395,9 @@ li a:hover{
     padding: 10px 10px;
     padding: 1px;
 }
-
+.portfolio-section button{
+    margin: 5px;
+}
 .portfolio-section button:hover{
     cursor: pointer;
     background-color: #5ba4978c;
