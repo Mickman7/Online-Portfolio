@@ -225,7 +225,7 @@ li a:hover{
 
 .portfolio-cell{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 50px;
     align-items: center;
 }
