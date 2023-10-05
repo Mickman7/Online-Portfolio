@@ -366,7 +366,8 @@ li a:hover{
 }
 
 .portfolio-section p{
-    width: 100px;
+    width: 400px;
+    margin: 5px 0px 5px 0px;
 }
 
 .code-view{
