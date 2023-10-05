@@ -213,7 +213,7 @@ li a:hover{
 
 .portfolio-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 50px;
     align-items: center;
 } 
