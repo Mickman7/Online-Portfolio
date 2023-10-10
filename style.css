@@ -64,7 +64,7 @@ li a{
     color: white;
 }
 
-li a.active:hover{
+li a:hover{
     color: #5BA497;
     border-bottom: 2px #5BA497 solid;
     transition: 0.1s;
