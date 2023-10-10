@@ -1,6 +1,6 @@
 //Code for navigation
 let hamburger = document.querySelector(".hamburger");
-let navLinks = document.getElementById("#nav-links");
+let navLinks = document.getElementById("nav-links");
 let links = document.querySelectorAll(".links");
 
 hamburger.addEventListener("click", () => {
