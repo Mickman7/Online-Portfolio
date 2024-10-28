@@ -19,33 +19,30 @@ for(let i = 0; i < links.length; i++){
 
 
 
+function showSkills(evt, skill) {
+  let skillButtons = document.getElementsByClassName("skill-btn"); 
+  let tabContent = document.getElementsByClassName("skill-container"); 
 
-//Portfolio section
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  // Hide all skill containers
+  for (let i = 0; i < tabContent.length; i++) {
+    tabContent[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+
+  // Remove "active" class from all skill buttons
+  for (let i = 0; i < skillButtons.length; i++) {
+    skillButtons[i].classList.remove("active");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  // Display the selected skill content
+  const selectedSkill = document.getElementById(skill);
+  if (selectedSkill) {
+    selectedSkill.style.display = "block";
+  } else {
+    console.error(`Element with ID '${skill}' not found.`);
+  }
+
+  // Set the clicked button to active
+  evt.currentTarget.classList.add("active");
+  
+  document.getElementById("defaultOpen").click();
+
 }
