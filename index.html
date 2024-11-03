@@ -75,8 +75,9 @@
                 setting.
             </p>
             <p>
-                Currently i am studying Computer Science at Kingston University and i am
-                looking for more experience.
+                I am currently pursuing a BSc (Hons) in Computer Science at Kingston University. 
+                Throughout my studies, I have gained experience in several programming languages, 
+                allowing me to explore various career paths within the field.
             </p>
             <button class="resume" onclick="window.open('src/Michael John-Charles CV 2024.pdf', '_blank')">CV</button>
         </div>
@@ -87,65 +88,129 @@
 
     <!-- Skills section -->
      <section id="skills" class="skills-section">
-        <div class="section-title">
-            <h2>What can i do?</h2>
-        </div>
-        <div class="tab-container">
-            <button class="skill-btn" onClick="showSkills(event, 'designer-container')">Designer</button>
-            <button class="skill-btn" onClick="showSkills(event, 'developer-container')">Developer</button>
-        </div>
-        <div class="skills">
-            <div id="designer-container" class="skill-container designer-container" style="display: block;">
-                <p>I value simple content organisation, elegant design principles and engaging user experiences</p>
-                <h3>Things i enjoy designing</h3>
-                <ul>
-                    <li>UI</li>
-                    <li>UX</li>
-                    <li>Websites</li>
-                    <li>Apps</li>
-                    <li>Something</li>
-                </ul>
-                <h3 class="tools">Design tools:</h3>
-                <ul>
-                    <li>Figma</li>
-                    <li>Pencil and Paper</li>
-                    <li>Photoshop</li>
-                </ul>
-
+         <div class="section-title">
+             <h2>What can i do?</h2>
+         </div>
+        <div class="experience-container">
+            <div class="tab-container">
+                <button class="skill-btn" onClick="showSkills(event, 'designer-container')">
+                    <div class="btn-logo">
+                        <img src="/images/Vector.png" alt="designer button logo">
+                    </div>
+                    Designer
+                </button>
+                <button class="skill-btn" onClick="showSkills(event, 'developer-container')">
+                    <div class="btn-logo">
+                        <img src="/images/Vector (1).png" alt="developer button logo">
+                    </div>
+                    Developer
+                </button>
             </div>
-            <div id="developer-container" class="skill-container developer-container">
-                <p>I like to code things from scratch, and enjoy brining ideas to like in a browser</p>
-                <h3>Languages i know</h3>
-                <div class="full-stack">
-                    <div class="Front-end">
-                        <p>Front-end</p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React js</li>
-                            <li>React Native</li>
-                        </ul>
+            <div class="skills">
+                <div id="designer-container" class="skill-container designer-container" style="display: block;">
+                    <p>I value simple content organisation, elegant design principles and engaging user experiences</p>
+    
+                    <div class="design-fun">
+                        <h3>Things i enjoy designing</h3>
+                        <p>UI/UX, Websites, Apps, Something</p>
                     </div>
-                    <div class="Back-end">
-                        <p>Front-end</p>
-                        <ul>
-                            <li>PHP</li>
-                            <li>Node/Express js</li>
-                        </ul>
+    
+                    <div class="design-tools">
+                        <h3 class="tools">Design tools:</h3>
+        
+                        <div class="tool-cards">
+                            <div id="figma" class="t-card">
+                                <div class="tool-img">
+                                    <img src="/images/figma.png" alt="figma">
+                                </div>
+                                <p class="tool-card-name">Figma</p>
+                            </div>
+                            <div id="pencilandpaper" class="t-card">
+                                <div class="tool-img">
+                                    <img src="/images/pencilandpaper.png" alt="pencil and paper">
+                                </div>
+                                <p class="tool-card-name">Pencil & Paper</p>
+                            </div>
+                            <div id="photoshop" class="t-card">
+                                <div class="tool-img">
+                                    <img src="/images/photoshop.png" alt="pencil and paper">
+                                </div>
+                                <p class="tool-card-name">Photoshop</p>
+                            </div>
+                        </div>
                     </div>
+    
                 </div>
-
-                <h3 class="tools">Design tools:</h3>
-                <ul>
-                    <li>Figma</li>
-                    <li>Pencil and Paper</li>
-                    <li>Photoshop</li>
-                </ul>
-
+    
+                <div id="developer-container" class="skill-container developer-container">
+                    <p>I like to code things from scratch, and enjoy brining ideas to like in a browser</p>
+                    <h3>Languages i know</h3>
+                    <div class="tool-cards">
+                        <div id="html" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/html logo.png" alt="html">
+                            </div>
+                            <p class="tool-card-name">HTML</p>
+                        </div>
+                        <div id="css" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/css logo.svg" alt="css">
+                            </div>
+                            <p class="tool-card-name">CSS</p>
+                        </div>
+                        <div id="javascript" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/javascript logo.png" alt="javascript">
+                            </div>
+                            <p class="tool-card-name">JavaScript</p>
+                        </div>
+                        <div id="react" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/React.webp" alt="react">
+                            </div>
+                            <p class="tool-card-name">React/Native</p>
+                        </div>
+                        <div id="node" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/nodejs.png" alt="node js">
+                            </div>
+                            <p class="tool-card-name">Node js</p>
+                        </div>
+                    </div>
+    
+                    <h3 class="tools">Dev tools:</h3>
+                    <div class="dev-tools">
+                        <div id="github" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/GitHub.png" alt="github">
+                            </div>
+                            <p class="tool-card-name">Github</p>
+                        </div>
+                        <div id="git" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/Git.png" alt="git">
+                            </div>
+                            <p class="tool-card-name">Git</p>
+                        </div>
+                        <div id="tailwindcss" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/tailwindcss.png" alt="tailwind css">
+                            </div>
+                            <p class="tool-card-name">Tailwindcss</p>
+                        </div>
+                        <div id="vscode" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/vs code logo.webp" alt="visual studio code">
+                            </div>
+                            <p class="tool-card-name">VS Code</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
             </div>
-
-
         </div>
      </section>
 
@@ -263,26 +328,26 @@
             <h4>Email</h4>
             <p>michaeljohn_charles@yahoo.com</p>
             <h4>Location</h4>
-            <p>Kingston Upon Thames, London</p>
+            <p>London, Unted Kingdom</p>
         </div>
         <div class="contact-form">
             <form action="https://formspree.io/f/mnqkoobo" method="POST">
                 <div class="cell-grid1">
                     <div class="form-cell">
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="First Name...">
+                        <input required type="text" id="fname" name="firstname" placeholder="First Name...">
                     </div>
                 
                     <div id="float-right" class="form-cell" style="float: right;">
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                        <input required type="text" id="lname" name="lastname" placeholder="Last Name...">
                     </div>
                 </div>
                 
                 <div class="cell-grid2">
                     <div class="form-cell" id="Email">
                         <label for="Email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Email...">
+                        <input required type="text" id="email" name="email" placeholder="Email...">
                     </div>
                 </div>
                 
@@ -306,7 +371,7 @@
         <a href="https://www.linkedin.com/in/michael-john-charles-1a7538200/" target="_blank" class="footer-icon"><i class="fa fa-brands fa-linkedin fa-2x" ></i></a>
         <a href="#" class="footer-icon"><i class="fa fa-regular fa-envelope fa-2x" ></i></a>
         <a href="https://github.com/Mickman7" target="_blank" class="footer-icon"><i class="fa fa-brands fa-github fa-2x" ></i></a> 
-        <p>Copyring © 2023.All rights are reserved.</p>
+        <p>Copyring © 2024.All rights are reserved.</p>
     </footer>
     <script src="script.js"></script>
 
