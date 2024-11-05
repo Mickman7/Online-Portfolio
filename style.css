@@ -970,6 +970,11 @@ footer p{
         height: 300px;
     }
 
+    .skill-container{
+        width: auto;
+    }
+    
+
     .portfolio-section{
         justify-content: center;
         padding: 0px 30px;
@@ -1196,22 +1201,31 @@ footer p{
     }
 
 
-    /* .portfolio-section{
-        display: flex;
-        flex-direction: column;
+    .skill-container{
+        width: 400px;
+        height: auto;
+        flex-wrap: nowrap;
     }
+    
+    
 
-    .cell-text h2{
-        font-size: 10px ;
-    } */
-
-    .slideshow-container{
-
+    .t-card{
+        flex: 1 1 calc(33.33%);
+        width: calc(50%);
     }
 
     .slide-img{
         width: 300px;
         height: 200px;
+    }
+
+    .project-container{
+
+    }
+
+    .portfolio-cell{
+        width: 350px;
+        height: 250px;
     }
 
     .contact-section{
