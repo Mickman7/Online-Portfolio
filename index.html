@@ -93,7 +93,7 @@
          </div>
         <div class="experience-container">
             <div class="tab-container">
-                <button class="skill-btn" onClick="showSkills(event, 'designer-container')">
+                <button class="skill-btn active" onClick="showSkills(event, 'designer-container')">
                     <div class="btn-logo">
                         <img src="/images/Vector.png" alt="designer button logo">
                     </div>
@@ -108,7 +108,7 @@
             </div>
             <div class="skills">
                 <div id="designer-container" class="skill-container designer-container" style="display: block;">
-                    <p>I value simple content organisation, elegant design principles and engaging user experiences</p>
+                    <p class="skill-sentence">I value simple content organisation, elegant design principles and engaging user experiences</p>
     
                     <div class="design-fun">
                         <h3>Things i enjoy designing</h3>
@@ -143,7 +143,7 @@
                 </div>
     
                 <div id="developer-container" class="skill-container developer-container">
-                    <p>I like to code things from scratch, and enjoy brining ideas to like in a browser</p>
+                    <p class="skill-sentence">I like to code things from scratch, and enjoy brining ideas to like in a browser</p>
                     <h3>Languages i know</h3>
                     <div class="tool-cards">
                         <div id="html" class="t-card">
@@ -163,6 +163,12 @@
                                 <img src="/images/javascript logo.png" alt="javascript">
                             </div>
                             <p class="tool-card-name">JavaScript</p>
+                        </div>
+                        <div id="php" class="t-card">
+                            <div class="tool-img">
+                                <img src="/images/PHP-logo.svg.png" alt="php">
+                            </div>
+                            <p class="tool-card-name">PHP</p>
                         </div>
                         <div id="react" class="t-card">
                             <div class="tool-img">
@@ -245,7 +251,10 @@
 
                 <div class="cell-info">
                     <h2>TechWorld - Ecommerce website</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, minima?</p>
+                    <p class="project-description">TechWorld is a dynamic e-commerce website I developed, 
+                        designed to simplify the process of buying and selling pre-owned technology. 
+                        The platform features a user-friendly interface, secure payment integration, 
+                        and advanced product categorization to help users easily find used smartphones, laptops, and PCs</p>
                     <div class="project-btn">
                         <a href="https://github.com/Mickman7/EPQ-Website"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
@@ -258,7 +267,9 @@
 
                 <div class="cell-info">
                     <h2>Shopping List </h2>
-                    <p>This Project was one of my first completed projects done in React js</p>
+                    <p class="project-description">TShopping List App is a sleek and interactive shopping website built 
+                        using React.js. This project showcases essential CRUD functionality, 
+                        allowing users to create, view, and delete items on their shopping list effortlessly.</p>
                     <div class="project-btn">
                         <a href="https://github.com/Mickman7/Shopping-List"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
@@ -268,11 +279,13 @@
 
 
             <div class="portfolio-cell">
-                <img src="images/blog-screenshot.png" class="cell-img">
+                <img src="images/Blog website screenshot.jpg" class="cell-img">
 
                 <div class="cell-info">
                     <h2>My Blog</h2>
-                    <p>This Project is a Blogging website made using the MERN stack</p>
+                    <p class="project-description">This Website is a feature-rich blogging platform built using the MERN stack 
+                        (MongoDB, Express.js, React.js, and Node.js). 
+                        This dynamic website allows users to create, read, update, and delete blog posts with ease.</p>
                     <div class="project-btn">
                         <a href="https://github.com/Mickman7/My-Blog"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
@@ -281,27 +294,30 @@
             </div>
 
             <div class="portfolio-cell">
-                <img src="images/crudler screenshot.png" class="cell-img">
+                <img src="images/CRUDLER.jpg" class="cell-img">
 
                 <div class="cell-info">
                     <h2>Crudler</h2>
-                    <p>This is a module tracking app created with React Native</p>
+                    <p class="project-description">CRUDLER is a React Native app designed for university students to manage their 
+                        academic modules and enrolled users effectively. Following the full CRUDL workflow 
+                        (Create, Read, Update, Delete, and List), 
+                        the app enables users to organize their modules and track key information with ease.</p>
                     <div class="project-btn">
-                        <a href="https://github.com/Mickman7/crudler"><button class="code-view">Github</button></a>
+                        <a href="https://github.com/Mickman7/Crudler-users"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
                     </div>
                 </div>    
             </div>
 
             <div class="portfolio-cell">
-                <img src="images/quality management website.png" class="cell-img">
+                <img src="images/Quality management website.jpg" class="cell-img">
 
                 <div class="cell-info">
                     <h2>Quality Management Website</h2>
-                    <p>This was the project done for my summer research internship using React with typescript. 
+                    <p class="project-description">This was the project done for my summer research internship using React with typescript. 
                         However, this project can't be view because of private ownership </p>
                     <div class="project-btn">
-                        <a href="https://github.com/JustCatto/KUPharmQMDev"><button class="code-view">Github</button></a>
+                        <a href="https://github.com/Mickman7/KUPharmQMDev"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
                     </div>
                 </div>    
@@ -312,7 +328,7 @@
 
                 <div class="cell-info">
                     <h2>Test</h2>
-                    <p>This is a test cell</p>
+                    <p class="project-description">This is a test cell</p>
                     <div class="project-btn">
                         <a href="#"><button class="code-view">Github</button></a>
                         <button class="live-view">Live View</button>
